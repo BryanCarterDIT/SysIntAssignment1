@@ -1,0 +1,11 @@
+# ~/.tshrc
+#
+# modified from tshrc original to remove unused aliases.
+
+alias ls='ls --color'
+
+alias pw='pwd'
+
+alias ifc='ifconfig eth0'
+
+alias ifc $1 = 'ifconfig $1'
