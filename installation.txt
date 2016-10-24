@@ -1,0 +1,14 @@
+Clone repo at: https://github.com/BryanCarterDIT/SysIntAssignment1
+Copy tsh to /usr/local/bin
+Copy tsh.conf to /etc/
+add "/usr/local/bin/./tsh" line to /etc/shells
+Run command sudo chsh -s /usr/local/bin./tsh %USER% and enter sudo password.
+
+This gives the error "chsh: PAM: Authentication failure" but does update the 
+
+/etc/passwd file with the new path. Logging in with the user results in access being 
+
+denied even with repeated password changes. I don't actually know what the problem is, 
+
+but it seems to be one I shouldn't be having.
+
